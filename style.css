@@ -10,7 +10,7 @@ body {
   background-position-x: -10px;
   overflow: hidden;
   box-sizing: border-box;
-  height: 100vh;
+  min-height: 100vh;
   display: grid;
   grid-template-rows: auto 1fr 130px;
   text-align: center;
