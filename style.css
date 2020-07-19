@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(img/bg-wave-atas.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position-y: -50px;
+  background-position-x: -10px;
+  overflow: hidden;
+  box-sizing: border-box;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr 130px;
+  text-align: center;
+  font-family: 'MuseoModerno', sans-serif;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 20px;
+  color: rgb(88, 86, 86);
+  cursor: pointer;
+  margin-bottom: 150px;
+}
+
+.navbar li:nth-child(1) {
+  color: #808000ff;
+}
+
+.navbar li {
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.navbar li:hover {
+  opacity: .5;
+}
+
+.myLogo {
+  height: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+}
+
+.myProfile p {
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+}
+
+.myProfile p span {
+  font-weight: 200;
+}
+
+.myProfile h4 {
+  font-size: 24px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  font-family: 'Montserrat';
+}
+
+.hobi img {
+  height: 40px;
+  margin-left: 10px;
+  opacity: .8;
+}
+
+.brand p {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.brand img {
+  height: 40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer
+}
+
+.brand img:hover {
+  opacity: .8;
+}
+
+
+/* 'MuseoModerno' */
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300;600&display=swap');
+
+/* 'Montserrat' */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap');
